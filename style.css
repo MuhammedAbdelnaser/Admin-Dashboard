@@ -466,7 +466,9 @@ main .recent-orders a {
     display:flex;
     align-items: center;
     justify-content: center;
-    color: white;
+}
+.right .theme-toggler span:first-of-type {
+    color: #fff;
 }
 .right .theme-toggler span.active {
     background-color: var(--color-primary);
